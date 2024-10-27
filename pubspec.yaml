@@ -1,0 +1,32 @@
+name: projet_fitnest
+description: "A new Flutter project."
+
+# Set to 'none' to avoid publishing this package to pub.dev
+publish_to: 'none'
+
+# The version of your application
+version: 1.0.0+1
+
+# Flutter SDK environment
+environment:
+  sdk: ">=3.5.1 <4.0.0"
+
+dependencies:
+  flutter_map: ^5.0.0
+  flutter_map_marker_cluster: ^1.2.0
+  geolocator: ^13.0.1
+  latlong2: ^0.9.1
+  http: ^1.2.2
+  location: ^4.4.0
+
+# Development dependencies (for testing, linting, etc.)
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0  # Update to the latest version for better linting support
+
+# Flutter specific settings
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/icons/
